@@ -11,7 +11,7 @@ const puppeteer = require('puppeteer');
 export async function scrapaMenuOggi(): Promise<Menu> {
     try {
         const browser = await puppeteer.launch({
-            headless: false,
+            headless: true,
             slowMo: 100,
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
