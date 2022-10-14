@@ -1,18 +1,16 @@
 {
-  "compilerOptions": {
-    "module": "commonjs",
-    "noImplicitReturns": true,
-    "noUnusedLocals": false,
-    "outDir": "lib",
-    "sourceMap": true,
-    "strict": true,
-    "target": "es2017",
-    "noImplicitAny": false,
-  },
-  "compileOnSave": true,
-  "include": [
-    "src",
-    "../.eslintrc.json"
-  ],
-  "moduleResolution": "Node"
+	"compilerOptions": {
+		"module": "es2022",
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"outDir": "lib",
+		"sourceMap": true,
+		"strict": true,
+		"target": "ES2018",
+		"noImplicitAny": false,
+		"moduleResolution": "node"
+	},
+	"compileOnSave": true,
+	"include": ["src", "../.eslintrc.json"],
+	"moduleResolution": "node"
 }
