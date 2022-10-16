@@ -17,6 +17,7 @@
     },
     "database": {
       "port": 9000
-    }
+    },
+    "singleProjectMode": true
   }
 }
